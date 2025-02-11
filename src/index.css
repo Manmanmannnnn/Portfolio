@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .max-container {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  .animationFade {
+    animation: fade 0.5s ease-in-out;
+  }
+
+  @keyframes fade {
+    0% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .animateText {
+    animation: textDraw 1s ease-in-out;
+  }
+
+  @keyframes textDraw {
+    0% {
+      color: transparent;
+    }
+    100% {
+      color: #cbd5e1;
+    }
+  }
+
+  .animateSlideLeft {
+    animation: slideLeft 1s ease;
+  }
+
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-33%);
+    }
+  }
+}
