@@ -44,7 +44,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="mt-5 h-[28%]">
+      <div className="mt-5 h-[28%] cursor-progress">
         <div className="w-full h-0.5 bg-black my-10"></div>
         <h2 className="text-3xl text-center">Work Experience</h2>
         <div className="text-2xl">

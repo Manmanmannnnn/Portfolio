@@ -16,7 +16,7 @@ const images = [
   {
     author: "unknown",
     url: engineer,
-    description: "Electrical Engineer x Web Developer",
+    description: "Engineer X Web Developer",
   },
   {
     author: "unknown",

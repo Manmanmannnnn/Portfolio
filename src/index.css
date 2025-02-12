@@ -41,16 +41,16 @@
     }
   }
 
-  .animateSlideLeft {
+  .animate-slide{
     animation: slideLeft 1s ease;
   }
 
   @keyframes slideLeft {
     0% {
-      transform: translateX(0%);
+      width: 0%;
     }
     100% {
-      transform: translateX(-33%);
+      width: 100%;
     }
   }
 }
