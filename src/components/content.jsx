@@ -1,4 +1,4 @@
-import engineer from "../assets/emmanuel-ikwuegbu-_2AlIm-F6pw-unsplash.jpg";
+import engineer from "../assets/kendall-ruth-AijuW-HlE30-unsplash.jpg";
 import chess1 from "../assets/hassan-pasha-y49mXQouZRg-unsplash.jpg";
 import darts from "../assets/adriaan-terblanche-7kvzAWoEKcY-unsplash.jpg";
 import coder from "../assets/emile-perron-xrVDYZRGdw4-unsplash.jpg";
@@ -16,7 +16,7 @@ const images = [
   {
     author: "unknown",
     url: engineer,
-    description: "Engineer X Web Developer",
+    description: "Engineer x Web Developer",
   },
   {
     author: "unknown",
@@ -26,7 +26,7 @@ const images = [
   {
     author: "unknown",
     url: chess1,
-    description: "Chess Lover",
+    description: "Chess fan",
   },
 
   {
