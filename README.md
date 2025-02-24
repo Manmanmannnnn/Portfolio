@@ -4,8 +4,12 @@ Hello! I'm Norman, a fresher web developer specializing in front-end development
 
 ## Latest Projects🌟
 
-- [Project 1 Name] – Brief description & tech used
-- [Project 2 Name] – Brief description & tech used
+- [⚡ Poke-Deck App ⚡] – This website allows you to explore a collection of Pokémon and view their information.
+- [Pokemon Rock-Paper-Scissor 🎮] – This is a fun twist on the classic game, featuring Pokémon types instead of traditional rock, paper, and scissors. The game is played between three types of Pokémon: Water 🌊, Fire 🔥, and Grass 🌱.
+- [Weather App 🌤️🌏] – This Weather App 🌤️🌍 allows users to quickly check the weather conditions and the current time for any location worldwide.
+- [Task Manager 📝] – A simple to-do app built to help you manage tasks.
+- [Clock App 🕰️] – This app displays the current time and includes a simple Stopwatch feature for timing tasks and events. 🚀
+- [Calculator 🧮] – This simple web-based calculator, supporting basic mathematical operations such as addition, subtraction, multiplication, and division
 
 ## Skills 🛠️
 
@@ -19,16 +23,7 @@ Hello! I'm Norman, a fresher web developer specializing in front-end development
 
 ## Get in Touch💬
 
-- Email: normanbobgomez@gmail.com
+- Github: [Github-profile](https://github.com/Manmanmannnnn)
 - LinkedIn: [LinkedIn-profile](https://www.linkedin.com/in/norman-bob-gomez/)
 
 Feel free to explore and reach out!
-
-<!-- # React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh -->
