@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaRegCopy } from "react-icons/fa";
 const Contact = ({ isDisplayed }) => {
   return (
     <div
-      className={`${isDisplayed ? "fixed" : "hidden"}  animate-in slide-in-from-left-full duration-1000 w-[50rem] m-auto rounded-r-[7rem] h-2/5 bg-stone-800`}
+      className={`${isDisplayed ? "fixed" : "hidden"} z-50  animate-in slide-in-from-left-full duration-1000 w-[50rem] m-auto rounded-r-[7rem] h-2/5 bg-stone-800`}
     >
       <p className="p-5 text-gray-100 font-medium text-3xl">
         Looking forward to work with you

@@ -10,7 +10,7 @@ const App = () => {
     setIsDisplayed((previous) => !previous);
   }
   return (
-    <div className="relative w-full">
+    <div className="relative w-full min-w-[70rem]">
       <Contact isDisplayed={isDisplayed} />
       <div onClick={isDisplayed ? toggleDisplay : undefined}>
         <Heading toggleDisplay={toggleDisplay} isDisplayed={isDisplayed} />

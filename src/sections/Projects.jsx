@@ -18,13 +18,13 @@ const Projects = () => {
       <div className="h-1/2">
         <h2 className="text-3xl">Projects</h2>
         <div className="w-full h-0.5 bg-black mb-10"></div>
-        <div className=" w-full">
+        <div className=" w-full ">
           <Swiper
             spaceBetween={30}
             centeredSlides={true}
             autoplay={{
               delay: 4000,
-              disableOnInteraction: true,
+              disableOnInteraction: false,
             }}
             navigation={true}
             modules={[Autoplay, Navigation]}
@@ -32,11 +32,11 @@ const Projects = () => {
           >
             {projects.map((el) => (
               <SwiperSlide>
-                <div className="flex">
+                <div className="flex ">
                   <img
                     key={el.name}
                     src={el.image}
-                    className="object-fill  h-[23rem] rounded-3xl flex-1"
+                    className="object-cover h-[23rem] rounded-3xl flex-1 "
                     alt={el.name}
                   />
                   <div className="flex-1 relative ">
@@ -46,7 +46,7 @@ const Projects = () => {
                     <p className="w-4/5 m-auto text-lg font-sans font-medium">
                       {el.description}
                     </p>
-                    <div className=" absolute bottom-0 left-3/4 text-2xl font-serif  font-semibold flex justify-center gap-7 cursor-pointer">
+                    <div className="max-2xl:left-0 absolute bottom-0 left-3/4 text-2xl font-serif  font-semibold flex justify-center gap-7 cursor-pointer">
                       <a
                         href={el.github}
                         target="_blank"
